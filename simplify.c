@@ -19,7 +19,7 @@ void main(void) {
 }
 
 void factor(int n) {
-	int i = 2, // Represents the primes factors of "n"
+	int i = 2, // Represents the prime factors of "n"
 	m = 0, // Iterator of "dvs"
 	len = lengthArr(n), // Length of "dvs"
 	dvs[len]; // Vector that holds the prime factors of "n"
